@@ -21,6 +21,6 @@ let result= await data.save();
 res.send(result);
 })
 
-app.listen(4000,()=>{
+app.listen(5000,()=>{
     console.log('Server is running on port 4000');
 })
