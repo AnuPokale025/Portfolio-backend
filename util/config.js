@@ -6,4 +6,4 @@ const dataschema= new mongoose.Schema({
     message: String
 })
 
-module.exports=mongoose.model('Data',dataschema);
+module.exports=mongoose.model('aniket',dataschema);
